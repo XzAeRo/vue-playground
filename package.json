@@ -1,0 +1,27 @@
+{
+  "name": "vue-playground",
+  "version": "0.0.1",
+  "description": "Playground repo for VueJS2 code",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XzAeRo/vue-playground.git"
+  },
+  "keywords": [
+    "vue",
+    "playground"
+  ],
+  "author": "Victor Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XzAeRo/vue-playground/issues"
+  },
+  "homepage": "https://github.com/XzAeRo/vue-playground#readme"
+}

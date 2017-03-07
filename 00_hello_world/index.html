@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Hello World!</title>
+    
+    <link rel="stylesheet" href="node_modules/admin-lte/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/admin-lte/dist/css/AdminLTE.css">
+    <link rel="stylesheet" href="node_modules/admin-lte/dist/css/skins/skin-green-light.min.css">
+    
+  </head>
+  <body class="hold-transition skin-green-light layout-top-nav">
+    <div class="wrapper">
+      <header class="main-header">
+        <nav class="navbar navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="#" class="navbar-brand"><b>Hello</b>World!</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                <i class="fa fa-bars"></i>
+              </button>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#declarative-rendering">Declarative Rendering</a></li>
+                <li><a href="#attribute-binding">Attribute Binding</a></li>
+                <li><a href="#two-way-binding">Two Way Binding</a></li>
+              </ul>
+            </div>
+            
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- /.navbar.navbar-static-top -->
+      </header>
+      <!-- /.main-header -->
+      
+      <div class="content-wrapper">
+        <div class="container">
+          <section class="content">
+            <!-- Example 1 -->
+            <h1 id="declarative-rendering">Declarative Rendering</h1>
+            <div id="declarative-rendering-app">
+              {{ message }}
+            </div>
+            
+            <!-- Example 2 -->
+            <h1 id="attribute-binding">Attribute Binding</h1>
+            <div id="attribute-binding-app">
+              <span v-bind:title="message">
+                Hover over this text. The tooltip should change everytime.
+              </span>
+            </div>
+            
+            <!-- Example 3 -->
+            <h1 id="two-way-binding">Two Way Attribute Binding</h1>
+            <div id="two-way-binding-app">
+              <p>{{message}}</p>
+              <input v-model="message" class="form-control" placeholder="Put something here...">
+            </div>
+          </section>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.content-wrapper -->
+    </div>
+    <!-- /.wrapper -->
+    
+    <!-- Vue Latest -->
+    <script src="node_modules/vue/dist/vue.min.js" charset="utf-8"></script>
+    <!-- jQuery 2.2.3 -->
+    <script src="node_modules/admin-lte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script src="node_modules/admin-lte/bootstrap/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="node_modules/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="node_modules/admin-lte/plugins/fastclick/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="node_modules/admin-lte/dist/js/app.min.js"></script>
+    
+    <!-- Main App Code -->
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

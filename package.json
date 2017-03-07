@@ -1,7 +1,7 @@
 {
   "name": "vue-playground",
   "version": "0.0.1",
-  "description": "Playground repo for VueJS2 code",
+  "description": "Vue.js Playground Repo",
   "main": "index.js",
   "dependencies": {
     "vue": "^2.2.1"
@@ -14,11 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/XzAeRo/vue-playground.git"
   },
-  "keywords": [
-    "vue",
-    "playground"
-  ],
-  "author": "Victor Gonzalez",
+  "author": "Victor Gonzalez <victor.gonzalezro@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/XzAeRo/vue-playground/issues"

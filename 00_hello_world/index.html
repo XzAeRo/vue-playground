@@ -27,6 +27,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="#declarative-rendering">Declarative Rendering</a></li>
                 <li><a href="#attribute-binding">Attribute Binding</a></li>
+                <li><a href="#two-way-binding">Two Way Binding</a></li>
               </ul>
             </div>
             
@@ -52,6 +53,13 @@
               <span v-bind:title="message">
                 Hover over this text. The tooltip should change everytime.
               </span>
+            </div>
+            
+            <!-- Example 3 -->
+            <h1 id="two-way-binding">Two Way Attribute Binding</h1>
+            <div id="two-way-binding-app">
+              <p>{{message}}</p>
+              <input v-model="message" class="form-control" placeholder="Put something here...">
             </div>
           </section>
         </div>
